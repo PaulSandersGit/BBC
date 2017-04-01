@@ -69,7 +69,7 @@ h1 {
 }
 
 p {
-    font-size:12px;
+    font-size:16px;
     color:black;
     margin:0px;
     overflow:scroll;
@@ -78,7 +78,7 @@ p {
 }
 
 p.mainhead {
-    font-size:18px;
+    font-size:24px;
     font-weight:bold;
     color:black;
     margin:10px;
@@ -116,7 +116,7 @@ p.copyright {
 }
 
 p.timeago {
-    font-size:10px;
+    font-size:12px;
     margin:10px;
     overflow:visible;
     padding:0px;
