@@ -39,83 +39,36 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    <title>BBC News</title>
 </head>
 
 <body>
     <div class="app">
-        <img src="appimages\balloons.jpg" alt="Balloons" style="width:285px;height:130px;">
+            <img src="appimages\header.png" alt="header"  style="width:285px;height:58px;">
+        <img src="appimages\sign.jpg" alt="Sign" style="width:285px;height:180px;">
         
-        <h1>Happy 15th Birthday Julian !!!</h1>
-        <h2>I love you - Dad</h2>
-        <p>Click on the button to light the candles, then click on the flames to blow them out</p>
+        <p class="mainhead">President Trump signs executive order to revoke Permanent Resident status</h1>
+        <p class="timeago">18 hours ago</p>
+        <p>Today, President Trump signed a new executive order, which revokes the Permanent Resident status for millions of foreign nationals currently residing in the United States. Unlike the recent executive order restricting travel to the United States from seven predominantly Muslim countries, this order will retroactively affect the resident status already granted to foreign nationals currently living in the country.</p>
         
-        <button onclick="lightCandles()">Light the candles</button>        
- 
-        <svg width="250" height="220">
-              <ellipse cx="125" cy="180" rx="120" ry="30" style="fill:chocolate;stroke:chocolate;stroke-width:2" />
-              <rect x="5", y="100", width="240" height="80" style="fill:chocolate;stroke-width:2;stroke:chocolate" />
-              <ellipse  cx="125" cy="100" rx="120" ry="30" style="fill:sienna;stroke:sienna;stroke-width:2" />
-        
-            <rect class="redcandle"  x="125", y="55" width="6" height="45"  />
-            <ellipse onclick="clickFlame(1)" class="flame" id="id1" cx="128" cy="48" rx="3" ry="6" visibility="hidden"  />
-            
-            <rect class="greencandle"  x="90", y="55" width="6" height="45"  />
-            <ellipse onclick="clickFlame(2)" class="flame" id="id2" cx="93" cy="48" rx="3" ry="6" visibility="hidden"  />
+    <p>Speaking live shortly after the signing, Present Trump said that “American companies have imported foreign workers for hundreds of thousands of high paying jobs, that should rightfully be given to Americans. It is time to put Americans first”.   It is estimated that there are more than 13 million permanent residents, often called “Green Card holders”, who will be effected by this stunning action by the President. The order would give existing residents just 6 months to leave the country. </p>
+    
+            <img src="appimages\ad.png" alt="Sign" style="width:285px;height:271px;">
+    
+    <p>There are already moves underway to block this latest immigration related executive order by the President. Washington Attorney General Bob Ferguson issued a statement saying that “such a move would be a disaster for high-tech companies in Washington State”, and said that he will be filing a challenge to the order in the next few days.  </p>
+    
+    <p>However, until the court process is complete, the future for millions of United States residents is currently very uncertain. </p>
+    
+     <svg width="280" height="5">
+              <rect x="0", y="0", width="280" height="2" style="fill:grey;stroke-width:1;stroke:grey" />
+    </svg>
+    
+            <img src="appimages\footer.png" alt="Sign" style="width:285px;height:228px;">
+    
 
-            <rect class="bluecandle"  x="54", y="55" width="6" height="45"  />
-            <ellipse onclick="clickFlame(3)" class="flame" id="id3" cx="57" cy="48" rx="3" ry="6" visibility="hidden"  />
-                        
-            <rect class="indigocandle"  x="20", y="55" width="6" height="45"  />
-            <ellipse onclick="clickFlame(4)" class="flame" id="id4" cx="23" cy="48" rx="3" ry="6" visibility="hidden"  />
-
-            <rect class="indigocandle"  x="160", y="55" width="6" height="45"  />
-            <ellipse onclick="clickFlame(5)" class="flame" id="id5" cx="163" cy="48" rx="3" ry="6" visibility="hidden"  />
-            
-
-            <rect class="orangecandle"  x="195", y="55" width="6" height="45"  />
-            <ellipse onclick="clickFlame(6)" class="flame" id="id6" cx="198" cy="48" rx="3" ry="6" visibility="hidden"  />
-
-
-            <rect class="greencandle"  x="230", y="55" width="6" height="45"  />
-            <ellipse onclick="clickFlame(7)" class="flame" id="id7" cx="233" cy="48" rx="3" ry="6" visibility="hidden"  />
-
-            
-            
-            <rect class="bluecandle"  x="110", y="30" width="6" height="45"  />
-            <ellipse onclick="clickFlame(8)" class="flame" id="id8" cx="113" cy="23" rx="3" ry="6" visibility="hidden"  />
-
-            <rect class="orangecandle"  x="75", y="36" width="6" height="45"  />
-            <ellipse onclick="clickFlame(9)" class="flame" id="id9" cx="78" cy="29" rx="3" ry="6" visibility="hidden"  />
-            
-            <rect class="indigocandle"  x="140", y="30" width="6" height="45"  />
-            <ellipse onclick="clickFlame(10)" class="flame" id="id10" cx="143" cy="23" rx="3" ry="6" visibility="hidden"  />
-
-            <rect class="redcandle"  x="175", y="36" width="6" height="45"  />
-            <ellipse onclick="clickFlame(11)" class="flame" id="id11" cx="178" cy="29" rx="3" ry="6" visibility="hidden"  />
-
-            
-            <rect class="indigocandle"  x="210", y="72" width="6" height="45"  />
-            <ellipse onclick="clickFlame(12)"  class="flame" id="id12" cx="213" cy="65" rx="3" ry="6" visibility="hidden"  />
-
-                            
-            <rect class="redcandle"  x="40", y="72" width="6" height="45"  />
-            <ellipse onclick="clickFlame(13)" class="flame" id="id13" cx="43" cy="65" rx="3" ry="6" visibility="hidden"  />
-
-                            
-            <rect class="orangecandle"  x="100", y="82" width="6" height="45"  />
-            <ellipse onclick="clickFlame(14)" class="flame" id="id14" cx="103" cy="75" rx="3" ry="6" visibility="hidden"  />
-
-                            
-            <rect class="greencandle"  x="150", y="82" width="6" height="45"  />
-            <ellipse onclick="clickFlame(15)" class="flame" id="id15" cx="153" cy="75" rx="3" ry="6" visibility="hidden"  />
-            
-            
-</svg>
-        
                 
 
-<h2 id="makeawish" visibility="hidden"></h2>
+
 
 
 
@@ -124,40 +77,6 @@
 
 
         
-
-<script>
-function lightCandles() {
-    var idprefix = "id";
-    var numberofcandles = 15;
-    var i;
-    for (i = 1; i <= numberofcandles; i++) {
-        document.getElementById(idprefix.concat(i)).setAttribute("visibility","visible");
-    }
-    document.getElementById("makeawish").innerHTML = ""
-}
-
-    
-function clickFlame(i) {
-    var idprefix = "id";
-    var numberofcandles = 15;
-    document.getElementById(idprefix.concat(i)).setAttribute("visibility","hidden");
-
-    var numberlit = 0
-    var i;
-    for (i = 1; i <= numberofcandles; i++) {
-        if (document.getElementById(idprefix.concat(i)).getAttribute("visibility") == "visible") { 
-            numberlit=numberlit+1};
-    }
-    if (numberlit == 0 ) {
-        document.getElementById("makeawish").innerHTML = "Make a wish!!!"
-    }
-    
-}
-
-    
-    
-</script>
-
         
 
 

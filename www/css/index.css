@@ -24,7 +24,7 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:lightgrey;
+    background-color:white;
 /*    background-color:#E4E4E4;
     background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
     background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -38,7 +38,7 @@ body {
     );
 */
     background-attachment:fixed;
-    font-family:'comic sans ms', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size:12px;
     height:100%;
     margin:0px;
@@ -59,15 +59,71 @@ body {
 
 
 h1 {
-    font-size:24px;
+    font-size:18px;
     font-weight:bold;
-    color:darkblue;
+    color:black;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:left;
+}
+
+p {
+    font-size:12px;
+    color:black;
+    margin:0px;
+    overflow:scroll;
+    padding:10px;
+    text-align:left;
+}
+
+p.mainhead {
+    font-size:18px;
+    font-weight:bold;
+    color:black;
+    margin:10px;
+    overflow:visible;
+    padding:0px;
+    text-align:left;
+}
+
+p.relatedheading {
+    font-size:14px;
+    color:black;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:left;
+}
+
+p.related {
+    font-size:10px;
+    color:red;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:left;
+}
+
+p.copyright {
+    font-size:8px;
+    font-weight:bold;
+    color:black;
     margin:0px;
     overflow:visible;
     padding:0px;
     text-align:center;
 }
 
+p.timeago {
+    font-size:10px;
+    margin:10px;
+    overflow:visible;
+    padding:0px;
+    text-align:left;
+    color:grey;
+    
+}
 
 h2 {
     font-size:16px;
@@ -78,6 +134,8 @@ h2 {
     padding:0px;
     text-align:center;
 }
+
+
 .event {
     border-radius:4px;
     -webkit-border-radius:4px;
